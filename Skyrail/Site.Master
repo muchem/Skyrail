@@ -40,7 +40,7 @@
         </asp:ScriptManager>
         <header class ="container-fluid">
              <h1 class ="logo">SKYRAIL</h1>
-            <h5 class ="text-center">Skate Shop</h5>
+            <h4 class ="text-center sub-txt"><b>SKATE SHOP</b></h4>
         </header>
         <div class="navbar navbar-inverse ">
             <div class="container">

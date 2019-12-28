@@ -25,6 +25,6 @@
             </div>
         </div>
     </div>
-    <h2 class ="text-center">Featured Decks</h2>
+   
 
 </asp:Content>

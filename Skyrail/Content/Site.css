@@ -29,12 +29,19 @@ li a{
     width: 100%;
     background-color: white;
 }
+header {
+    padding: 20px 0;
+}
 .logo {
     color: black;
     text-align: center;
     font-size: 7rem;
-    padding: 20px 0 ;
+    margin:0;
     font-family: 'Black Ops One', cursive;
+}
+.sub-txt{
+    margin:0;
+    letter-spacing:2px;
 }
 /* Set widths on the form inputs since otherwise they're 100% wide */
 input,
