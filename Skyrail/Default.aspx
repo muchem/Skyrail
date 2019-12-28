@@ -11,13 +11,17 @@
     <div class ="row">
         <div class ="col-md-6 ">
             <div class="banner-box-1">
-              
+              <div class ="link-box">
+                  <h3><b>Shop Skateboards</b></h3>
+              </div>
             </div>
 
         </div>
          <div class ="col-md-6">
             <div class="banner-box-2">
-                
+               <div class ="link-box">
+                  <h3><b>Shop Bikes</b></h3>
+              </div>
             </div>
         </div>
     </div>

@@ -33,7 +33,7 @@ li a{
     color: black;
     text-align: center;
     font-size: 7rem;
-    padding: 20px 0;
+    padding: 20px 0 ;
     font-family: 'Black Ops One', cursive;
 }
 /* Set widths on the form inputs since otherwise they're 100% wide */
