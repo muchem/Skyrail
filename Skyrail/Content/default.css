@@ -7,6 +7,7 @@
     background-position: center;
     background-size: cover;
     margin:0px;
+   
 }
 .banner-box-1 {
     width: 100%;
@@ -14,7 +15,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:50vh;
+    height: 425px;
+    border: solid black 3px;
 }
 .banner-box-2 {
     width: 100%;
@@ -22,7 +24,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 425px;
+    border: solid black 3px;
 }
 .row{
     padding:20px;
@@ -30,7 +33,7 @@
 .link-box{
     position:relative;
     text-align:center;
-    top:50%;
+    top:60%;
     padding:20px;
     
   
@@ -41,3 +44,22 @@
         margin: 0 100px;
         padding: 20px;
     }
+@media screen and (max-width:768px){
+    .link-box h3 {
+        margin: 0 50px;
+    }
+    .banner-box-1 , .banner-box-2 {
+        height: 30vh;
+    }
+}
+@media screen and (max-width:576px) {
+    .banner-box-2{
+        margin-top:15px;
+    }
+    .link-box h3 {
+        margin: 0 30px;
+    }
+    .banner-box-1, .banner-box-2 {
+        height: 50vh;
+    }
+}
