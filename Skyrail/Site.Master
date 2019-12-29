@@ -38,6 +38,9 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
+        <section class ="container-fluid free-banner">
+            <h6 class ="text-center"><b>FREE SHIPPING ON ALL ORDERS</b></h6>
+        </section>
         <section class ="container-fluid site-info">
             <div class ="container">
             <div class ="site-section">
@@ -48,11 +51,9 @@
                      <li class ="info-item">
 
                      </li>
+                 
                     <li class ="info-item">
-                        <img src ="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" id ="flag-svg"/>
-                    </li>
-                    <li class ="info-item">
-                        <a runat="server" href="~/"><asp:Label ID="Label1" runat="server" Text="United States"></asp:Label></a> (EN) $USD</li>
+                        <a runat="server" href="~/"><img src ="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" id ="flag-svg"/> <asp:Label ID="Label1" runat="server" Text="United States"></asp:Label></a> (EN) $USD</li>
                     </ul>
                 </div>
             </div>
