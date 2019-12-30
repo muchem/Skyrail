@@ -17,7 +17,6 @@ body {
     background-color: black;
     border: solid 1px #242424;
 }
-
 .free-banner {
     border-bottom: 6px solid black;
     background-image: url("");
@@ -31,12 +30,15 @@ body {
     list-style: none;
     margin-left: 10px;
 }
-.nav-list a {
-    color: white;
+.s {
+    color:white;
+}
+.s:hover{
+    color:black;
 }
 .logo-bar {
     width: 100%;
-    padding:15px;
+    padding:18px;
     background-color: white;
 }
 header {

@@ -74,11 +74,12 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class ="nav-list"><a runat="server" href="~/"><b>MEN</b></a></li>
-                         <li class ="nav-list"><a runat="server" href="~/"><b>WOMEN</b></a></li>
-                         <li class ="nav-list"><a runat="server" href="~/"><b>BOYS</b></a></li>
-                         <li class ="nav-list"><a runat="server" href="~/"><b>SHOES</b></a></li>
-                         <li class ="nav-list"><a runat="server" href="~/"><b>SKATE</b></a></li>
+                        <li><a runat="server" href="~/"><b class ="s">HOME</b></a></li>
+                         <li><a runat="server" href="~/"><b>SKATEBOARDS</b></a></li>
+                         <li><a runat="server" href="~/"><b>BIKES</b></a></li>
+                         <li><a runat="server" href="~/"><b>SCOOTERS</b></a></li>
+                         <li><a runat="server" href="~/"><b>T-SHIRTS</b></a></li>
+                         <li><a runat="server" href="~/"><b>ACCESORIES</b></a></li>
                       <!--  <li><a runat="server" href="~/About">CONTACT</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li> -->
                     </ul>
@@ -88,7 +89,6 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
            
         </div>
          <footer>
