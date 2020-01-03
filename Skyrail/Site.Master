@@ -14,7 +14,7 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -45,7 +45,7 @@
             <div class ="container">
             <div class ="site-section">
                 <ul class ="info-link-box">
-                    <li class ="info-item"><a runat="server" href="~/">
+                    <li class ="info-item"><a runat="server" href="~/Login">
                         <asp:Label ID="registrationLabel" runat="server" Text="Login/Sign Up"></asp:Label></a>
                     </li>  
                      <li class ="info-item">
@@ -74,7 +74,7 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/"><b class ="s">HOME</b></a></li>
+                        <li><a runat="server" href="~/"><b>HOME</b></a></li>
                          <li><a runat="server" href="~/"><b>SKATEBOARDS</b></a></li>
                          <li><a runat="server" href="~/"><b>BIKES</b></a></li>
                          <li><a runat="server" href="~/"><b>SCOOTERS</b></a></li>
@@ -86,7 +86,7 @@
                 </div>
             </div>
         </div>
-        <div class="container body-content">
+        <div class="container body-contents">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
            

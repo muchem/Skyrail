@@ -11,7 +11,7 @@ body {
     padding-right: 15px;
     background-color: white;
     margin-top: 30px;
-    border: solid 7px #404040;
+ 
 }
 .navbar {
     background-color: black;
@@ -29,12 +29,6 @@ body {
 .info-item {
     list-style: none;
     margin-left: 10px;
-}
-.s {
-    color:white;
-}
-.s:hover{
-    color:black;
 }
 .logo-bar {
     width: 100%;
@@ -85,6 +79,7 @@ textarea {
 }
 
 /* Responsive: Portrait tablets and up */
+
 @media screen and (min-width: 768px) {
     .jumbotron {
         margin-top: 20px;
