@@ -11,7 +11,7 @@ namespace Skyrail
 {
 
 
-    public partial class Login
+    public partial class Contact
     {
     }
 }

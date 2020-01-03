@@ -80,20 +80,19 @@
                          <li><a runat="server" href="~/"><b>SCOOTERS</b></a></li>
                          <li><a runat="server" href="~/"><b>T-SHIRTS</b></a></li>
                          <li><a runat="server" href="~/"><b>ACCESORIES</b></a></li>
-                      <!--  <li><a runat="server" href="~/About">CONTACT</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li> -->
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container body-contents">
+        <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
            
         </div>
-         <footer>
-              
+       <!--  <footer>
+              <h1 class="footer-header"><b>SKYRAIL</b></h1>
             </footer>
+        -->
     </form>
 </body>
 </html>
