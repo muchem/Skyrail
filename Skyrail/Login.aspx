@@ -1,10 +1,11 @@
 ﻿<%@ Page Title="Login/Sign Up" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Skyrail.Contact" %>
 
 <script runat="server">
-      protected void CreateBnt_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Register.aspx");
-        }
+   
+    protected void CreateBnt_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Register.aspx");
+    }
 </script>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link rel ="stylesheet" href ="Content/login.css" />

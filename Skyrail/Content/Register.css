@@ -1,0 +1,33 @@
+.input {
+
+   width:100%;
+    padding: 8px 2px;
+    margin-bottom:10px;
+}
+.field-box{
+    display:flex;
+}
+.box-1{
+    width:50vh;
+}
+.box-2 {
+    width: 50vh;
+}
+.create-bnt{
+    width:100vh;
+    padding:8px 0px;
+    color:white;
+    background-color:black;
+    border:none;
+
+}
+.login-link{
+    text-decoration:underline;
+    color:black;
+}
+@media screen and (max-width:576px) {
+    .field-box {
+     flex-direction:column;
+     text-align:center;
+    }
+}
